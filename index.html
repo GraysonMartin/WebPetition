@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="index.css">
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+  <title>I Support Barstow High School Co-Ed Swim Team</title>
+</head>
+<body>
+  <main>
+    <div id="head">
+      <h1>I Support Barstow High School Co-Ed Swim Team</h1>
+      <h2 id="numOfSupports"></h2>
+    </div>
+    <div id="add">
+      <h2>Add your support</h2>
+      <input placeholder="enter your name" id="name">
+      <br>
+      <input id="swim" type="radio" name="want" value="swim" checked>I want to swim
+      <input id="support" type="radio" name="want" value="suppport">I support the team
+      <br>
+      <button onclick="addSupport()">Add my support!</button>
+    </div>
+    <div id="lists">
+      <ol id="swimmers">
+        <h2>Swimmers</h2>
+
+      </ol>
+      <ol id="supporters">
+        <h2>Supporters</h2>
+
+      </ol>
+    </div>
+    <footer>&copy; 2017 Grayson Martin</footer>
+  </main>
+</body>
+</html>
+<script src="https://www.gstatic.com/firebasejs/4.3.1/firebase.js"></script>
+<script src="index.js" charset="utf-8"></script>

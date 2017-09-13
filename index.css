@@ -1,0 +1,50 @@
+h1, h2, h3, footer, p, ol, li {
+  font-family: 'Lato', sans-serif;
+}
+
+main {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#head {
+  text-align: center;
+}
+
+#add {
+  text-align: center;
+}
+
+#add h2 {
+  margin: 0;
+}
+
+#add #name {
+  font-size: 24px;
+}
+
+ol li {
+  font-size: 36px;
+  margin: 2px 0;
+}
+
+ol {
+  margin: 0 40px;
+}
+
+ol h2 {
+  text-align: center;
+}
+
+footer {
+  margin-top: 30px;
+}
+
+@media screen and (min-width: 920px) {
+  #lists {
+    display: flex;
+  }
+}
